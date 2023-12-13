@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme(selectedColor: 6).theme(), // quita el banner debug en el la App
+      theme: AppTheme(selectedColor: 1).theme(), // quita el banner debug en el la App
       home: const ChatScreen(),
     );
   }
